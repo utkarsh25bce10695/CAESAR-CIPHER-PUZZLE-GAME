@@ -52,7 +52,7 @@ Authentication:
 
 Launch the program.
 
-Username: Enter utkarsh
+Username: Enter utkarsh<br>
 Password: Enter utkarsh@123
 
 Note: Entering incorrect credentials will deny access and terminate the program.
