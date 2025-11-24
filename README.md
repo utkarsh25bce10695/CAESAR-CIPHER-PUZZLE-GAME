@@ -9,12 +9,12 @@ substitution cipher in which each letter in the plaintext is replaced by a lette
 positions down the alphabet.
 
 <h2>Features</h2>
-Secure Access: Requires a username and password to start the game.
-Encryption: Convert plaintext messages into encrypted cipher text using a shift key.
-Decryption: Convert cipher text back into the original message using the same shift key.
-Modulus Operation: Handles shift keys greater than 26 automatically ( key % 26 ).
-Default Credentials: To run the cipher program, you must use the hardcoded default credentials:
-  Field Value
+Secure Access: Requires a username and password to start the game.<br>
+Encryption: Convert plaintext messages into encrypted cipher text using a shift key.<br>
+Decryption: Convert cipher text back into the original message using the same shift key.<br>
+Modulus Operation: Handles shift keys greater than 26 automatically ( key % 26 ).<br>
+Default Credentials: To run the cipher program, you must use the hardcoded default credentials:<br>
+  Field Value<br>
 Username utkarsh                                            Password utkarsh@123
 
 <h2>How to Run the Code
@@ -22,7 +22,7 @@ Prerequisites</h2>
 You need to have Python installed on your system. This script was written and tested with Python 3.
 Running the Script
 1. Save the Code: Save the provided Python code into a file named, for example,
-caesar_cipher.py .
+caesar_cipher.py
 
 2. Open Terminal: Navigate to the directory where you saved the file.
 
