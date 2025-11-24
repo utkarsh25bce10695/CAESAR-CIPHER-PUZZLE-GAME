@@ -6,7 +6,7 @@ This project is a Python-based command-line application designed to secure text 
 
 ## Features
 
-<h2>User Authentication:</h2> A built-in login mechanism that requires a specific username and password to access the application.
+<h5>User Authentication:</h5> A built-in login mechanism that requires a specific username and password to access the application.
 
 Caesar Cipher Encryption: Converts readable text into encrypted strings based on a user-defined numeric shift.
 
