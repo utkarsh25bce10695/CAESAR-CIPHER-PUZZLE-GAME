@@ -1,44 +1,85 @@
-<h2># Message encrypt and decrypt app</h2>
-<h2>Overview</h2>
-This is a simple command-line application implemented in Python that allows users to encrypt and
-decrypt messages using the classic Caesar Cipher algorithm. It features a basic login system to access
-the cipher functionality.
+Message Encrypt Decrypt
 
-The Caesar Cipher is one of the simplest and most well-known encryption techniques. It is a type of
-substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of
-positions down the alphabet.
+Overview of the Project
 
-<h2>Features</h2>
-Secure Access: Requires a username and password to start the game.<br>
-Encryption: Convert plaintext messages into encrypted cipher text using a shift key.<br>
-Decryption: Convert cipher text back into the original message using the same shift key.<br>
-Modulus Operation: Handles shift keys greater than 26 automatically ( key % 26 ).<br>
-Default Credentials: To run the cipher program, you must use the hardcoded default credentials:<br>
-  Field Value<br>
-Username: utkarsh<br>                                           
-Password: utkarsh@123
+This project is a Python-based command-line application designed to secure text messages using the classic Caesar Cipher algorithm. The tool ensures privacy by implementing a basic authentication system before granting access to the encryption and decryption features. Users can transform plain text into ciphertext and vice versa by specifying a numeric shift key, making it a useful tool for understanding fundamental cryptography concepts.
 
-<h2>How to Run the Code
-Prerequisites</h2>
-You need to have Python installed on your system. This script was written and tested with Python 3.
-Running the Script
-1. Save the Code: Save the provided Python code into a file named, for example,
-caesar_cipher.py
+Features
 
-2. Open Terminal: Navigate to the directory where you saved the file.
+User Authentication: A built-in login mechanism that requires a specific username and password to access the application.
 
-3. Execute: Run the script from your terminal using the following command:
-python caesar_cipher.py
+Caesar Cipher Encryption: Converts readable text into encrypted strings based on a user-defined numeric shift.
 
-4. Login: You will be prompted to enter the username and password (see Default Credentials above).
+Caesar Cipher Decryption: Reverses the encryption process to retrieve the original message.
 
-5. Use the Cipher: Once logged in, the program will guide you through encrypting or decrypting
-your messages and specifying the shift key.
-Code Structure
+Customizable Shift Key: Allows users to choose any integer as the key for shifting characters.
 
-The core logic is contained within two main functions:
-1. caesar_encrypt(message, key) : Encrypts the input message.
-2. caesar_decrypt(encrypted_message, key) : Decrypts the cipher message.
+Interactive Session: Features a while loop that allows users to process multiple messages without restarting the program.
 
-Both functions use Python's built-in str.maketrans and translate methods from the string
-module for efficient character shifting
+Input Handling: Automatically normalizes inputs to lowercase to ensuring consistent processing.
+
+Technologies/Tools Used
+
+Programming Language: Python 3
+
+Standard Libraries: string (used for alphabet manipulation)
+
+Interface: Command Line Interface (CLI)
+
+Steps to Install & Run the Project
+
+Prerequisites: Ensure you have Python installed on your machine. You can check this by running python --version in your terminal.
+
+Download: Download the message_encrypt.py file to your local machine.
+
+Open Terminal: Open your Command Prompt (Windows) or Terminal (Mac/Linux).
+
+Navigate: Use the cd command to navigate to the folder where you saved the file.
+
+cd path/to/your/folder
+
+
+Run: Execute the script using the following command:
+
+python message_encrypt.py
+
+
+Instructions for Testing
+
+To successfully test the application, follow these steps:
+
+Authentication:
+
+Launch the program.
+
+Username: Enter utkarsh
+
+Password: Enter utkarsh@123
+
+Note: Entering incorrect credentials will deny access and terminate the program.
+
+Encryption Test:
+
+When prompted "Do you want to decrypt or encrypt?", type: encrypt
+
+Shift: Enter 3
+
+Message: Enter hello
+
+Expected Output: khoor
+
+Decryption Test:
+
+Choose to continue when asked.
+
+Type: decrypt
+
+Shift: Enter 3
+
+Message: Enter khoor
+
+Expected Output: hello
+
+Exit:
+
+When asked "Do you want to do it with another message?", type no to exit the application.
