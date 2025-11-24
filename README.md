@@ -48,29 +48,29 @@ python message_encrypt.py
 
 To successfully test the application, follow these steps:
 
-1. Authentication:
+1. # Authentication:
 
-Launch the program.
+Launch the program.<br>
 Username: Enter utkarsh<br>
 Password: Enter utkarsh@123
 
 **Note: Entering incorrect credentials will deny access and terminate the program.**
 
-2. Encryption Test:
+2. # Encryption Test:
 
-When prompted "Do you want to decrypt or encrypt?", type: encrypt
-Shift: Enter 3
-Message: Enter hello
+When prompted "Do you want to decrypt or encrypt?", type: encrypt<br>
+Shift: Enter 3<br>
+Message: Enter hello<br>
 Expected Output: khoor
 
-3. Decryption Test:
+3. # Decryption Test:
 
-Choose to continue when asked.
-Type: decrypt
-Shift: Enter 3
-Message: Enter khoor
+Choose to continue when asked.<br>
+Type: decrypt<br>
+Shift: Enter 3<br>
+Message: Enter khoor<br>
 Expected Output: hello
 
-4. Exit:
+4. # Exit:
 
 When asked "Do you want to do it with another message?", type no to exit the application.
