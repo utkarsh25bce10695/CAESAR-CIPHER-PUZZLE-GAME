@@ -18,6 +18,7 @@ This project is a Python-based command-line application designed to secure text 
 
 <li> Input Handling: Automatically normalizes inputs to lowercase to ensuring consistent processing. </li>
 </ul>
+
 ## Technologies/Tools Used
 <ul>
 <li> Programming Language: Python 3 </li>
@@ -26,6 +27,7 @@ This project is a Python-based command-line application designed to secure text 
 
 <li> Interface: Command Line Interface (CLI) </li>
 </ul>
+
 ## Steps to Install & Run the Project
 <ul>
 <li> Prerequisites: Ensure you have Python installed on your machine. You can check this by running python --version in your terminal. </li>
@@ -62,7 +64,8 @@ To successfully test the application, follow these steps:
 <li> Shift: Enter 3</li>
 <li> Message: Enter hello</li>
 <li> Expected Output: khoor</li>
-</ul>
+</ul>  
+
 3. ## Decryption Test:
 <ul>
 <li> Choose to continue when asked.</li>
@@ -71,6 +74,7 @@ To successfully test the application, follow these steps:
 <li> Message: Enter khoor</li>
 <li> Expected Output: hello</li>
 </ul>
+
 4. ## Exit:
 <ul>
 <li> When asked "Do you want to do it with another message?", type no to exit the application.</li>
