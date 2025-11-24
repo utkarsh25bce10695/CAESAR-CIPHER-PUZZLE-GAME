@@ -56,7 +56,7 @@ Username: Enter utkarsh
 
 Password: Enter utkarsh@123
 
-Note: Entering incorrect credentials will deny access and terminate the program.
+** Note: Entering incorrect credentials will deny access and terminate the program. **
 
 Encryption Test:
 
