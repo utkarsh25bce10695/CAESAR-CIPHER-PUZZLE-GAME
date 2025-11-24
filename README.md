@@ -19,58 +19,59 @@ This project is a Python-based command-line application designed to secure text 
 <li> Input Handling: Automatically normalizes inputs to lowercase to ensuring consistent processing. </li>
 </ul>
 ## Technologies/Tools Used
+<ul>
+<li> Programming Language: Python 3 </li>
 
-Programming Language: Python 3
+<li> Standard Libraries: string (used for alphabet manipulation) </li>
 
-Standard Libraries: string (used for alphabet manipulation)
-
-Interface: Command Line Interface (CLI)
-
+<li> Interface: Command Line Interface (CLI) </li>
+</ul>
 ## Steps to Install & Run the Project
+<ul>
+<li> Prerequisites: Ensure you have Python installed on your machine. You can check this by running python --version in your terminal. </li>
 
-Prerequisites: Ensure you have Python installed on your machine. You can check this by running python --version in your terminal.
+<li> Download: Download the message_encrypt.py file to your local machine. </li>
 
-Download: Download the message_encrypt.py file to your local machine.
+<li> Open Terminal: Open your Command Prompt (Windows) or Terminal (Mac/Linux). </li>
 
-Open Terminal: Open your Command Prompt (Windows) or Terminal (Mac/Linux).
-
-Navigate: Use the cd command to navigate to the folder where you saved the file.
+<li> Navigate: Use the cd command to navigate to the folder where you saved the file.</li>
 
 cd path/to/your/folder
 
 
-Run: Execute the script using the following command:
+<li> Run: Execute the script using the following command: </li>
 
 python message_encrypt.py
-
+</ul>
 
 ## Instructions for Testing
 
 To successfully test the application, follow these steps:
 
 1. ## Authentication:
-
-Launch the program.<br>
-Username: Enter utkarsh<br>
-Password: Enter utkarsh@123
-
+<ul>
+<li> Launch the program.</li>
+<li> Username: Enter utkarsh</li>
+<li> Password: Enter utkarsh@123</li>
+</ul>
 **Note: Entering incorrect credentials will deny access and terminate the program.**
 
 2. ## Encryption Test:
-
-When prompted "Do you want to decrypt or encrypt?", type: encrypt<br>
-Shift: Enter 3<br>
-Message: Enter hello<br>
-Expected Output: khoor
-
+<ul>
+<li> When prompted "Do you want to decrypt or encrypt?", type: encrypt</li>
+<li> Shift: Enter 3</li>
+<li> Message: Enter hello</li>
+<li> Expected Output: khoor</li>
+</ul>
 3. ## Decryption Test:
-
-Choose to continue when asked.<br>
-Type: decrypt<br>
-Shift: Enter 3<br>
-Message: Enter khoor<br>
-Expected Output: hello
-
+<ul>
+<li> Choose to continue when asked.</li>
+<li> Type: decrypt</li>
+<li> Shift: Enter 3</li>
+<li> Message: Enter khoor</li>
+<li> Expected Output: hello</li>
+</ul>
 4. ## Exit:
-
-When asked "Do you want to do it with another message?", type no to exit the application.
+<ul>
+<li> When asked "Do you want to do it with another message?", type no to exit the application.</li>
+</ul>
