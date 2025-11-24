@@ -1,10 +1,10 @@
-Message Encrypt Decrypt
+#Message Encrypt Decrypt
 
 ## Overview of the Project
 
 This project is a Python-based command-line application designed to secure text messages using the classic Caesar Cipher algorithm. The tool ensures privacy by implementing a basic authentication system before granting access to the encryption and decryption features. Users can transform plain text into ciphertext and vice versa by specifying a numeric shift key, making it a useful tool for understanding fundamental cryptography concepts.
 
-Features
+## Features
 
 User Authentication: A built-in login mechanism that requires a specific username and password to access the application.
 
@@ -18,7 +18,7 @@ Interactive Session: Features a while loop that allows users to process multiple
 
 Input Handling: Automatically normalizes inputs to lowercase to ensuring consistent processing.
 
-Technologies/Tools Used
+## Technologies/Tools Used
 
 Programming Language: Python 3
 
@@ -26,7 +26,7 @@ Standard Libraries: string (used for alphabet manipulation)
 
 Interface: Command Line Interface (CLI)
 
-Steps to Install & Run the Project
+## Steps to Install & Run the Project
 
 Prerequisites: Ensure you have Python installed on your machine. You can check this by running python --version in your terminal.
 
