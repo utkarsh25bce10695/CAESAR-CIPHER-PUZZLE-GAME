@@ -1,6 +1,6 @@
 Message Encrypt Decrypt
 
-Overview of the Project
+## Overview of the Project
 
 This project is a Python-based command-line application designed to secure text messages using the classic Caesar Cipher algorithm. The tool ensures privacy by implementing a basic authentication system before granting access to the encryption and decryption features. Users can transform plain text into ciphertext and vice versa by specifying a numeric shift key, making it a useful tool for understanding fundamental cryptography concepts.
 
