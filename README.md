@@ -5,19 +5,19 @@
 This project is a Python-based command-line application designed to secure text messages using the classic Caesar Cipher algorithm. The tool ensures privacy by implementing a basic authentication system before granting access to the encryption and decryption features. Users can transform plain text into ciphertext and vice versa by specifying a numeric shift key, making it a useful tool for understanding fundamental cryptography concepts.
 
 ## Features
+<ul>
+<li> User Authentication: A built-in login mechanism that requires a specific username and password to access the application. </li>
 
-<h5>User Authentication:</h5> A built-in login mechanism that requires a specific username and password to access the application.
+<li> Caesar Cipher Encryption: Converts readable text into encrypted strings based on a user-defined numeric shift. </li>
 
-Caesar Cipher Encryption: Converts readable text into encrypted strings based on a user-defined numeric shift.
+<li> Caesar Cipher Decryption: Reverses the encryption process to retrieve the original message. </li>
 
-Caesar Cipher Decryption: Reverses the encryption process to retrieve the original message.
+<li> Customizable Shift Key: Allows users to choose any integer as the key for shifting characters. </li>
 
-Customizable Shift Key: Allows users to choose any integer as the key for shifting characters.
+<li> Interactive Session: Features a while loop that allows users to process multiple messages without restarting the program. </li>
 
-Interactive Session: Features a while loop that allows users to process multiple messages without restarting the program.
-
-Input Handling: Automatically normalizes inputs to lowercase to ensuring consistent processing.
-
+<li> Input Handling: Automatically normalizes inputs to lowercase to ensuring consistent processing. </li>
+</ul>
 ## Technologies/Tools Used
 
 Programming Language: Python 3
