@@ -15,8 +15,8 @@ Decryption: Convert cipher text back into the original message using the same sh
 Modulus Operation: Handles shift keys greater than 26 automatically ( key % 26 ).<br>
 Default Credentials: To run the cipher program, you must use the hardcoded default credentials:<br>
   Field Value<br>
-Username utkarsh<br>                                           
-Password utkarsh@123
+Username: utkarsh<br>                                           
+Password: utkarsh@123
 
 <h2>How to Run the Code
 Prerequisites</h2>
